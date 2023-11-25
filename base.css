@@ -14,7 +14,7 @@ body {
     background-color: aquamarine;
 }
 .main {
-    display: flex;
+    display: relative;
     flex-flow: column;
     width: 85%;
 }
