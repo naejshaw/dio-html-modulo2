@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
 }
+
 body {
     background-color: #f1f1f1;
     display: flex;
@@ -13,13 +14,7 @@ body {
     margin: 0 auto;
     background-color: aquamarine;
 }
-.main {
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-    width: 85%;
-    margin-left: 150px;
-}
+
 .menu {
     width: 10%;
     height: 100vh;
@@ -28,31 +23,66 @@ body {
     text-align: center;
     position: fixed;
 }
-.menu ul{
+
+.menu ul {
     list-style: none;
+    padding: 0;
 }
-.menu ul li a{
+
+.menu ul li a {
     text-decoration: none;
 }
-.header {
-    background: url("https://img.freepik.com/vetores-premium/modelo-de-logotipo-da-clinica-medica_8188-16.jpg") cover no-repeat;
-    min-height: 150px;
-    flex-direction: row;
+
+.main {
+    display: flex;
     justify-content: center;
+    flex-flow: column;
+    width: 75%; /* Alterado o valor para 75% para totalizar 100% com o menu */
+    margin-left: 10%; /* Alterado o valor para coincidir com a largura do menu */
+}
+
+.header {
+    min-height: 150px;
+    display: flex;
     align-items: center;
 }
-.slogan{
+
+.logo img {
+    width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+    margin-right: 20px; /* Adicione margem à direita da imagem, se necessário */
+}
+
+.slogan {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 100px;
-    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer li {
+    display: inline-block;
+    margin-right: 10px;
 }
