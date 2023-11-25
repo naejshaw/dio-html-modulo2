@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-flow: column;
     width: 85%;
+    right: 0;
 }
 .menu {
     width: 10%;
