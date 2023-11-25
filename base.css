@@ -87,3 +87,7 @@ body {
     display: inline-block;
     margin-right: 10px;
 }
+
+td{
+    border: 1px solid black;
+}
