@@ -37,7 +37,8 @@ body {
     display: flex;
     justify-content: center;
     flex-flow: column;
-    width: 90%; /* Alterado o valor para 90% para totalizar 100% com o menu */
+    width: 80%; 
+    margin-left: 10%;
 }
 
 .header {
@@ -47,8 +48,8 @@ body {
 }
 
 .logo img {
-    width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
-    margin-right: 20px; /* Adicione margem à direita da imagem, se necessário */
+    width: 150px; 
+    margin-right: 20px; 
 }
 
 .slogan {
