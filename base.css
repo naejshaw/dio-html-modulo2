@@ -37,8 +37,7 @@ body {
     display: flex;
     justify-content: center;
     flex-flow: column;
-    width: 75%; /* Alterado o valor para 75% para totalizar 100% com o menu */
-    margin-left: 10%; /* Alterado o valor para coincidir com a largura do menu */
+    width: 90%; /* Alterado o valor para 90% para totalizar 100% com o menu */
 }
 
 .header {
