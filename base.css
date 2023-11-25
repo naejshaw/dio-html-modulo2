@@ -26,6 +26,7 @@ body {
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
+    flex-direction: row;
 }
 .content {
     background-color: white;
