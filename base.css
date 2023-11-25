@@ -33,7 +33,7 @@ body {
     text-decoration: none;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background: url("https://img.freepik.com/vetores-premium/modelo-de-logotipo-da-clinica-medica_8188-16.jpg");
     min-height: 150px;
     flex-direction: row;
     justify-content: center;
@@ -43,14 +43,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.logo{
-    width: 50%;
-    height: 120px;
-}
-.logo img{
-    max-width: 100px;
-    max-height: 100px;
 }
 .content {
     background-color: white;
