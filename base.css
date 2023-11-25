@@ -15,6 +15,7 @@ body {
 }
 .main {
     display: flex;
+    justify-content: center;
     flex-flow: column;
     width: 90%;
     margin-left: 150px;
