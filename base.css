@@ -23,6 +23,10 @@ body {
     background-color: aqua;
     padding: 10px 20px 0px;
 }
+.menu ul li{
+    list-style: none;
+    text-decoration: none;
+}
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
