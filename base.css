@@ -12,12 +12,11 @@ body {
     display: flex;
     margin: 0 auto;
     background-color: aquamarine;
-    justify-content: space-between;
 }
 .main {
     display: flex;
     flex-flow: column;
-    width: 85%;
+    width: 90%;
     right: 0;
 }
 .menu {
@@ -44,8 +43,8 @@ body {
     height: 120px;
 }
 .logo img{
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 100px;
+    max-height: 100px;
 }
 .content {
     background-color: white;
