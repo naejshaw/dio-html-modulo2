@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-flow: column;
     width: 90%;
-    right: -50;
+    margin-left: 50px;
 }
 .menu {
     width: 10%;
@@ -37,6 +37,12 @@ body {
     min-height: 150px;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
+}
+.slogan{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .logo{
     width: 50%;
