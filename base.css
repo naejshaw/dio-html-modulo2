@@ -39,6 +39,7 @@ body {
     flex-flow: column;
     width: 80%; 
     margin-left: 10%;
+    margin-right: 0;
 }
 
 .header {
