@@ -17,11 +17,11 @@ body {
     display: flex;
     justify-content: center;
     flex-flow: column;
-    width: 90%;
+    width: 85%;
     margin-left: 150px;
 }
 .menu {
-    width: 5%;
+    width: 10%;
     height: 100vh;
     background-color: aqua;
     padding: 10px 20px 0px;
