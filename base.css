@@ -23,7 +23,7 @@ body {
     height: 100vh;
     background-color: aqua;
     padding: 10px 20px 0px;
-    position: fixed;
+    position: absolute;
 }
 .menu ul{
     list-style: none;
