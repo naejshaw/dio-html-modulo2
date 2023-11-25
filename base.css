@@ -12,6 +12,7 @@ body {
     display: flex;
     margin: 0 auto;
     background-color: aquamarine;
+    justify-content: space-between;
 }
 .main {
     display: flex;
